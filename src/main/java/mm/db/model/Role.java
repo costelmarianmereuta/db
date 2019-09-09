@@ -18,7 +18,6 @@ import java.util.List;
 public class Role {
     @Id @GeneratedValue
     private long id;
-
     @Column(name = "role")
     private String role;
     @JsonIgnore
